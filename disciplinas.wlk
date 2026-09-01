@@ -23,5 +23,8 @@ object judo {
 
 object hockey {
 
+    method entrenadores() = 3
+    method presupuestoDisciplina() = 300 * victoria.edad()
+
 }
 
