@@ -11,5 +11,5 @@ object judogi {
 } 
 
 object stick {
-    method costoElemento() = (5 +  victoria.edad) ** 2
+    method costoElemento() = (5 +  victoria.edad()) ** 2
 }
