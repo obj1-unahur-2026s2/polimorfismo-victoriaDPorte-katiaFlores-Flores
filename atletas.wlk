@@ -6,12 +6,13 @@ object victoria {
     var altura = 170
     var disciplina = tenis
     var elemento = raqueta
-    var invitados = 5
+    var cantidadDeInvitados = 5
 
     method edad() = edad
     method altura() = altura
     method presupuesto() =  disciplina.entrenadores() * comiteOlimpico.valorPorEntrenador(elemento)
-
+    method cantidadDeInvitados() = cantidadDeInvitados
+    
     method cambiarElemento(elementoNuevo) {
       elemento = elementoNuevo
     }
@@ -19,7 +20,7 @@ object victoria {
       disciplina = nuevaDisciplina
     }
     method cambiarCantidadDeInvitados(cantidad){
-        invitados = cantidad
+        cantidadDeInvitados = cantidad
     }
     method cumplirAnios() {
       edad += 1
