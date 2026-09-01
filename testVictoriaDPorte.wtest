@@ -2,3 +2,10 @@ import atletas.*
 import elementos.*
 import disciplinas.*
 
+describe "Caso de prueba - Victoria"  {
+    test "Victoria se quiere parecer a Pareto (que mide 150 cms), se hace pequeña, practica judo y por lo tanto necesita un judogi." {
+        victoria.cambiarAltura(150)
+        victoria.cambiarDisciplina(judo)
+        victoria.cambiarElemento(judogi)
+    }
+} 
