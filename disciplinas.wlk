@@ -3,8 +3,8 @@ import atletas.*
 object tenis {
 
 
-    var entrenadores = 3
-    method presupuestoDisciplina(invitados) = 200 + (3 * (invitados.max(1)))
+    var entrenadores = 4
+    method presupuestoDisciplina() = 200 + (3 * victoria.cantidadDeInvitados())
     method cambiarEntrenadores(cantidad) {
       entrenadores = cantidad
     }
