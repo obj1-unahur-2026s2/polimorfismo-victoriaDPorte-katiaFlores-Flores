@@ -4,6 +4,7 @@ object tenis {
 
 
     var entrenadores = 4
+    method entrenadores() = entrenadores
     method presupuestoDisciplina() = 200 + (3 * victoria.cantidadDeInvitados())
     method cambiarEntrenadores(cantidad) {
       entrenadores = cantidad
